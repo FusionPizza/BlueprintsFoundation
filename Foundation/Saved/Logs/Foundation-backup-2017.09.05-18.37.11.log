@@ -1,0 +1,633 @@
+﻿Log file open, 07/25/17 10:25:07
+LogInit:Display: Running engine for game: Foundation
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1733449770) SRandInit(1733449770).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075612
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: F:/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.25-17.25.07:895][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.25-17.25.07:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.25-17.25.07:905][  0]LogInit: Computer: ROGUE
+[2017.07.25-17.25.07:905][  0]LogInit: User: Paul
+[2017.07.25-17.25.07:905][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.07.25-17.25.07:905][  0]LogInit: High frequency timer resolution =3.320338 MHz
+[2017.07.25-17.25.07:906][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.07.25-17.25.07:906][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.25-17.25.07:906][  0]LogMemory: Process Physical Memory: 263.20 MB used, 263.20 MB peak
+[2017.07.25-17.25.07:906][  0]LogMemory: Process Virtual Memory: 262.23 MB used, 262.23 MB peak
+[2017.07.25-17.25.07:906][  0]LogMemory: Physical Memory: 7827.06 MB used,  24824.34 MB free, 32651.40 MB total
+[2017.07.25-17.25.07:906][  0]LogMemory: Virtual Memory: 644.23 MB used,  24824.34 MB free, 134217728.00 MB total
+[2017.07.25-17.25.07:977][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.07.25-17.25.08:579][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.25-17.25.09:128][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.07.25-17.25.09:128][  0]LogD3D11RHI:       6103/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.25-17.25.09:131][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.07.25-17.25.09:131][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.25-17.25.09:132][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.25-17.25.09:132][  0]LogD3D11RHI:       0/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.25-17.25.09:132][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.25-17.25.09:137][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.25-17.25.09:137][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.25-17.25.09:137][  0]LogWindows: EnumDisplayDevices:
+[2017.07.25-17.25.09:137][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.07.25-17.25.09:138][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:1)
+[2017.07.25-17.25.09:138][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.07.25-17.25.09:138][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.07.25-17.25.09:138][  0]LogWindows:    4. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.07.25-17.25.09:138][  0]LogWindows:    5. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.07.25-17.25.09:139][  0]LogWindows:    6. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.07.25-17.25.09:139][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.07.25-17.25.09:139][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.07.25-17.25.09:139][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.07.25-17.25.09:139][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.07.25-17.25.09:139][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.25-17.25.09:631][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.25-17.25.09:738][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.25-17.25.09:836][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Intermediate/Shaders/WorkingDirectory/5176/).
+[2017.07.25-17.25.09:837][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Paul/AppData/Local/Temp/UnrealShaderWorkingDir/440404664972CB581B64F290C1FF4ECE/'.
+[2017.07.25-17.25.09:837][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.25-17.25.10:896][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.25-17.25.10:946][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.25-17.25.10:995][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.25-17.25.11:043][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.25-17.25.11:093][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.25-17.25.11:143][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.25-17.25.11:193][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.25-17.25.11:242][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.25-17.25.11:281][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.25-17.25.11:329][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.25-17.25.11:380][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.25-17.25.11:430][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.25-17.25.11:478][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.25-17.25.11:526][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.25-17.25.11:573][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.25-17.25.11:667][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.25-17.25.11:667][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.25-17.25.11:698][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.25-17.25.11:787][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.25-17.25.11:824][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.25-17.25.11:875][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.25-17.25.11:929][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.25-17.25.11:976][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.25-17.25.12:023][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.25-17.25.12:023][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.25-17.25.12:388][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.25-17.25.12:436][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Paul/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.25-17.25.12:436][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Paul/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.07.25-17.25.12:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.25-17.25.12:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.25-17.25.12:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.25-17.25.12:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.25-17.25.12:453][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.25-17.25.12:465][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Paul/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.25-17.25.12:475][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.25-17.25.12:476][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.25-17.25.12:476][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.25-17.25.12:770][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.25-17.25.12:773][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.25-17.25.12:962][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.25-17.25.12:996][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.25-17.25.13:034][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.25-17.25.13:034][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.25-17.25.13:034][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.25-17.25.13:557][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: foundation, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2485637068
+[2017.07.25-17.25.13:601][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.07.25-17.25.13:642][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021565 seconds
+[2017.07.25-17.25.13:648][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.07.25-17.25.13:648][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.07.25-17.25.13:648][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.25-17.25.13:704][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.25-17.25.15:099][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.25-17.25.15:159][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.25-17.25.15:546][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.25-17.25.15:865][  0]SourceControl: Info Source control is disabled
+[2017.07.25-17.25.15:896][  0]SourceControl: Info Source control is disabled
+[2017.07.25-17.25.15:934][  0]SourceControl: Info Source control is disabled
+[2017.07.25-17.25.15:971][  0]SourceControl: Info Source control is disabled
+[2017.07.25-17.25.16:979][  0]LogEngine: Initializing Engine...
+[2017.07.25-17.25.16:980][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.25-17.25.17:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.25-17.25.17:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.25-17.25.17:190][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.25-17.25.17:206][  0]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-17.25.17:232][  0]LogInit: FAudioDevice initialized.
+[2017.07.25-17.25.17:265][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Paul/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.25-17.25.17:279][  0]LogInit: Texture streaming: Enabled
+[2017.07.25-17.25.17:382][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.25-17.25.17:455][  0]LogInit: Transaction tracking system initialized
+[2017.07.25-17.25.17:736][  0]BlueprintLog: New page: Editor Load
+[2017.07.25-17.25.18:522][  0]LocalizationService: Info Localization service is disabled
+[2017.07.25-17.25.19:290][  0]LogConsoleResponse:Display: 
+[2017.07.25-17.25.19:411][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Projects/BlueprintsFoundation/Foundation/Content/' took 0.01s
+[2017.07.25-17.25.19:411][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.25-17.25.19:411][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.25-17.25.20:245][  0]SourceControl: Info Source control is disabled
+[2017.07.25-17.25.20:246][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-17.25.20:246][  0]LightingResults: New page: Lighting Build
+[2017.07.25-17.25.20:278][  0]MapCheck: New page: Map Check
+[2017.07.25-17.25.20:278][  0]LightingResults: New page: Lighting Build
+[2017.07.25-17.25.20:507][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.25-17.25.20:525][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.25-17.25.20:529][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-17.25.20:532][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-17.25.20:563][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.604ms to complete.
+[2017.07.25-17.25.20:563][  0]LogFileHelpers: Loading map 'Template_Default' took 0.318
+[2017.07.25-17.25.20:748][  0]LogCollectionManager: Loaded 0 collections in 0.001278 seconds
+[2017.07.25-17.25.20:824][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Projects/BlueprintsFoundation/Foundation/Saved/Collections/' took 0.01s
+[2017.07.25-17.25.20:824][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Projects/BlueprintsFoundation/Foundation/Content/Developers/Paul/Collections/' took 0.01s
+[2017.07.25-17.25.20:824][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Projects/BlueprintsFoundation/Foundation/Content/Collections/' took 0.01s
+[2017.07.25-17.25.20:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.25-17.25.20:834][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2245 classes and 453 folders.
+[2017.07.25-17.25.20:888][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.25-17.25.20:921][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.25-17.25.20:958][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.25-17.25.21:056][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.25-17.25.21:064][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-17.25.21:121][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.25-17.25.21:122][  0]LogLoad: (Engine Initialization) Total time: 14.96 seconds
+[2017.07.25-17.25.21:122][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2017.07.25-17.25.21:122][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.25-17.25.21:122][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.25-17.25.21:132][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.25-17.25.21:133][  0]LogOcInput: OculusInput pre-init called
+[2017.07.25-17.25.21:155][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.07.25-17.25.21:156][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.25-17.25.21:162][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.25-17.25.21:166][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.25-17.25.21:341][  0]LogRenderer: Reallocating scene render targets to support 1724x988 NumSamples 1 (Frame:2).
+[2017.07.25-17.25.21:401][  1]LogAssetRegistry: Asset discovery search completed in 7.8217 seconds
+[2017.07.25-17.25.21:401][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.07.25-17.25.21:401][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.07.25-17.31.33:644][978]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-17.31.33:864][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FoundationMap" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.25-17.31.33:908][978]LogSavePackage: Save=30.29ms
+[2017.07.25-17.31.33:909][978]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FoundationMap2D4539EC4C634D066AE675924AF93FD8.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap'
+[2017.07.25-17.31.33:909][978]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap
+[2017.07.25-17.31.33:937][978]LogFileHelpers: Saving map 'FoundationMap' took 0.346
+[2017.07.25-17.31.33:937][978]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-17.31.33:956][978]LightingResults: New page: Lighting Build
+[2017.07.25-17.31.33:958][978]LoadErrors: New page: Loading map: FoundationMap.umap
+[2017.07.25-17.31.33:960][978]MapCheck: New page: Map Check
+[2017.07.25-17.31.33:960][978]LightingResults: New page: Lighting Build
+[2017.07.25-17.31.34:002][978]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-17.31.34:084][978]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-17.31.34:104][978]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-17.31.34:137][978]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.664ms to complete.
+[2017.07.25-17.31.34:137][978]LogFileHelpers: Loading map 'FoundationMap' took 0.200
+[2017.07.25-17.32.41:950][742]LogMetaData: Removing '/Game/Blueprints/FPSController.FPSController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.07.25-17.32.41:950][742]LogMetaData: Removing '/Game/Blueprints/FPSController.SKEL_FPSController_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.07.25-17.32.41:950][742]LogMetaData: Removing '/Game/Blueprints/FPSController.FPSController_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.07.25-17.32.41:950][742]LogMetaData: Removing '/Game/Blueprints/FPSController.FPSController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.07.25-17.32.41:950][742]LogMetaData: Removing '/Game/Blueprints/FPSController.FPSController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.07.25-17.32.41:950][742]LogMetaData: Removing '/Game/Blueprints/FPSController.FPSController:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.07.25-17.32.41:969][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-17.32.41:991][742]LogSavePackage: Save=19.88ms
+[2017.07.25-17.32.41:991][742]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController4588F19745084BAA766A25AAD76963D3.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-17.32.41:993][742]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-17.33.02:756][554]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.07.25-17.33.03:540][554]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.25-17.33.41:700][ 99]LogSlate: Took 0.005369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.25-17.57.14:335][501]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-17.57.23:385][528]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FoundationMap' took 0.022
+[2017.07.25-17.57.23:392][528]LogSavePackage: Save=3.96ms
+[2017.07.25-17.57.23:392][528]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/NewBlueprint_Auto1FC6E4B2045E99F623E243993D707F841.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto1.uasset'
+[2017.07.25-17.57.23:392][528]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto1.uasset
+[2017.07.25-17.57.23:393][528]LogFileHelpers: Auto-saving content packages took 0.007
+[2017.07.25-18.23.30:624][ 74]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FoundationMap' took 0.015
+[2017.07.25-18.23.30:625][ 74]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FPSController] ([1] browsable assets)...
+[2017.07.25-18.23.30:625][ 74]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FPSController]
+[2017.07.25-18.23.30:651][ 74]LogSavePackage: Save=19.92ms
+[2017.07.25-18.23.30:651][ 74]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController_Auto2DDA6797E49E608E2104129B4F343C72C.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/FPSController_Auto2.uasset'
+[2017.07.25-18.23.30:652][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/FPSController_Auto2.uasset
+[2017.07.25-18.23.30:652][ 74]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.07.25-18.33.31:528][203]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FoundationMap' took 0.015
+[2017.07.25-18.33.31:529][203]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FPSController] ([1] browsable assets)...
+[2017.07.25-18.33.31:529][203]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FPSController]
+[2017.07.25-18.33.31:559][203]LogSavePackage: Save=23.71ms
+[2017.07.25-18.33.31:559][203]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController_Auto39C2940A342256C3F4BB88CB10FA2CF94.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/FPSController_Auto3.uasset'
+[2017.07.25-18.33.31:560][203]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/FPSController_Auto3.uasset
+[2017.07.25-18.33.31:560][203]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.07.25-18.33.41:745][499]BlueprintLog: New page: Compile FPSController
+[2017.07.25-18.33.42:440][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-18.33.42:465][555]LogSavePackage: Save=23.17ms
+[2017.07.25-18.33.42:465][555]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSControllerACC7A4AD4BF9667357DEF5B01DA49A03.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-18.33.42:467][555]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-18.36.14:377][ 35]BlueprintLog: New page: Compile FPSController
+[2017.07.25-18.36.17:185][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-18.36.17:209][353]LogSavePackage: Save=21.86ms
+[2017.07.25-18.36.17:209][353]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController060D74FE480E1E74312656BD66344091.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-18.36.17:211][353]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-19.04.55:686][487]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FoundationMap' took 0.013
+[2017.07.25-19.04.55:687][487]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FPSGameMode] ([1] browsable assets)...
+[2017.07.25-19.04.55:687][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FPSGameMode]
+[2017.07.25-19.04.55:701][487]LogSavePackage: Save=12.55ms
+[2017.07.25-19.04.55:701][487]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSGameMode_Auto42128182B42F6EDD94D8A85A24E553966.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/FPSGameMode_Auto4.uasset'
+[2017.07.25-19.04.55:702][487]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/FPSGameMode_Auto4.uasset
+[2017.07.25-19.04.55:702][487]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.07.25-19.12.43:577][ 25]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.12.48:178][571]BlueprintLog: New page: Compile FPSGameMode
+[2017.07.25-19.12.50:287][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSGameMode" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSGameMode.uasset" SILENT=true
+[2017.07.25-19.12.50:301][799]LogSavePackage: Save=12.56ms
+[2017.07.25-19.12.50:301][799]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSGameModeB466608F430FBFBC4E471C99E4B99266.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSGameMode.uasset'
+[2017.07.25-19.12.50:306][799]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSGameMode.uasset
+[2017.07.25-19.12.51:413][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/NewBlueprint.uasset" SILENT=true
+[2017.07.25-19.12.51:421][928]LogSavePackage: Save=4.12ms
+[2017.07.25-19.12.51:421][928]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/NewBlueprintDBC5048B487DE606201605A0E611D883.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/NewBlueprint.uasset'
+[2017.07.25-19.12.51:423][928]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/NewBlueprint.uasset
+[2017.07.25-19.13.02:831][653]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.25-19.13.02:879][654]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Foundation
+
+[2017.07.25-19.13.02:880][654]LogTemp:Display: CWD: F:\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.07.25-19.13.02:880][654]LogTemp:Display: Initial Dir: F:\Epic Games\UE_4.15
+
+[2017.07.25-19.13.02:880][654]LogTemp:Display: Env CWD: F:\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.07.25-19.13.02:880][654]LogTemp:Display: BranchPath = ROGUE/F/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ROGUE/F/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.07.25-19.13.02:897][656]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Paul\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.07.25-19.13.02:897][656]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.07.25-19.13.02:897][656]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.07.25-19.13.02:897][656]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.07.25-19.13.02:898][656]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.07.25-19.13.02:898][656]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.07.25-19.18.21:823][258]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-19.18.28:635][ 64]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.18.28:648][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.18.28:649][ 64]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 5:18:28 AM)
+[2017.07.25-19.18.28:650][ 64]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-19.18.28:652][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002531s)
+[2017.07.25-19.18.28:653][ 64]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-19.18.28:653][ 64]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2017.07.25-19.18.28:653][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.004032s)
+[2017.07.25-19.18.28:678][ 64]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-19.18.28:685][ 64]LogInit: FAudioDevice initialized.
+[2017.07.25-19.18.28:730][ 64]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-19.18.28:733][ 64]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-12.18.28
+[2017.07.25-19.18.28:735][ 64]LogWorld: Bringing up level for play took: 0.001640
+[2017.07.25-19.18.28:770][ 64]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.07.25-19.18.28:773][ 64]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap -0.555
+[2017.07.25-19.24.37:704][711]LogRenderer: Reallocating scene render targets to support 1724x1008 NumSamples 1 (Frame:43504).
+[2017.07.25-19.24.41:128][101]LogSlate: Took 0.005452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.25-19.25.00:140][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FoundationMap" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.25-19.25.00:194][  1]LogSavePackage: Save=30.73ms
+[2017.07.25-19.25.00:194][  1]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FoundationMapD132E7FB403C29B98BECC6A3A8E4BA7E.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap'
+[2017.07.25-19.25.00:195][  1]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap
+[2017.07.25-19.33.56:707][490]BlueprintLog: New page: Compile FPSController
+[2017.07.25-19.33.58:159][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-19.33.58:191][635]LogSavePackage: Save=26.53ms
+[2017.07.25-19.33.58:192][635]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController78E5273D44BB37F89BC569B9AAC97D12.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-19.33.58:195][635]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-19.34.02:324][816]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.34.02:338][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.34.02:338][816]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 5:34:02 AM)
+[2017.07.25-19.34.02:338][816]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-19.34.02:340][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002157s)
+[2017.07.25-19.34.02:341][816]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-19.34.02:341][816]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2017.07.25-19.34.02:341][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.003195s)
+[2017.07.25-19.34.02:365][816]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-19.34.02:373][816]LogInit: FAudioDevice initialized.
+[2017.07.25-19.34.02:406][816]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-19.34.02:408][816]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-12.34.02
+[2017.07.25-19.34.02:409][816]LogWorld: Bringing up level for play took: 0.000965
+[2017.07.25-19.34.02:410][816]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap -0.918
+[2017.07.25-19.41.06:849][259]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FoundationMap' took 0.016
+[2017.07.25-19.41.06:850][259]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FPSController] ([1] browsable assets)...
+[2017.07.25-19.41.06:850][259]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FPSController]
+[2017.07.25-19.41.06:885][259]LogSavePackage: Save=27.13ms
+[2017.07.25-19.41.06:885][259]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController_Auto55407D9BA444D363E9DB036BBA7CCE76E.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/FPSController_Auto5.uasset'
+[2017.07.25-19.41.06:885][259]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/FPSController_Auto5.uasset
+[2017.07.25-19.41.06:885][259]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.07.25-19.46.34:416][844]BlueprintLog: New page: Compile FPSController
+[2017.07.25-19.46.35:747][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-19.46.35:782][985]LogSavePackage: Save=28.19ms
+[2017.07.25-19.46.35:782][985]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController2B3DFF524218ED517847E588978B1801.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-19.46.35:783][985]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-19.46.55:321][678]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.46.55:335][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.46.55:335][678]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 5:46:55 AM)
+[2017.07.25-19.46.55:335][678]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-19.46.55:337][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001663s)
+[2017.07.25-19.46.55:337][678]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-19.46.55:338][678]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2017.07.25-19.46.55:338][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.002784s)
+[2017.07.25-19.46.55:362][678]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-19.46.55:370][678]LogInit: FAudioDevice initialized.
+[2017.07.25-19.46.55:401][678]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-19.46.55:403][678]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-12.46.55
+[2017.07.25-19.46.55:403][678]LogWorld: Bringing up level for play took: 0.000950
+[2017.07.25-19.46.55:405][678]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap 0.077
+[2017.07.25-19.48.09:410][588]BlueprintLog: New page: Compile FPSController
+[2017.07.25-19.48.10:214][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-19.48.10:247][664]LogSavePackage: Save=30.90ms
+[2017.07.25-19.48.10:247][664]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController968F1F504DA005803DCADAB265CCBCEF.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-19.48.10:249][664]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-19.48.11:891][854]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.48.11:906][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.48.11:907][854]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 5:48:11 AM)
+[2017.07.25-19.48.11:907][854]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-19.48.11:909][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001898s)
+[2017.07.25-19.48.11:909][854]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-19.48.11:909][854]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2017.07.25-19.48.11:910][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.002980s)
+[2017.07.25-19.48.11:935][854]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-19.48.11:945][854]LogInit: FAudioDevice initialized.
+[2017.07.25-19.48.11:978][854]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-19.48.11:979][854]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-12.48.11
+[2017.07.25-19.48.11:980][854]LogWorld: Bringing up level for play took: 0.000851
+[2017.07.25-19.48.11:981][854]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap 0.653
+[2017.07.25-19.49.39:050][305]BlueprintLog: New page: Compile FPSController
+[2017.07.25-19.49.39:605][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-19.49.39:637][353]LogSavePackage: Save=29.43ms
+[2017.07.25-19.49.39:637][353]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController50D37B824E12B28970DB18BAE2D2A926.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-19.49.39:639][353]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-19.49.41:669][594]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.49.41:683][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.49.41:683][594]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 5:49:41 AM)
+[2017.07.25-19.49.41:683][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-19.49.41:685][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001636s)
+[2017.07.25-19.49.41:685][594]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-19.49.41:685][594]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.07.25-19.49.41:685][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.002583s)
+[2017.07.25-19.49.41:709][594]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-19.49.41:716][594]LogInit: FAudioDevice initialized.
+[2017.07.25-19.49.41:746][594]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-19.49.41:748][594]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-12.49.41
+[2017.07.25-19.49.41:748][594]LogWorld: Bringing up level for play took: 0.000933
+[2017.07.25-19.49.41:749][594]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap 0.422
+[2017.07.25-19.50.18:306][424]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.25-19.50.52:807][276]BlueprintLog: New page: Compile FPSController
+[2017.07.25-19.50.53:522][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-19.50.53:552][345]LogSavePackage: Save=28.62ms
+[2017.07.25-19.50.53:552][345]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController1A7B69FA4B53D3D5B7BEEEB6B3E7C5C2.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-19.50.53:554][345]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-19.51.10:527][354]BlueprintLog: New page: Compile FPSController
+[2017.07.25-19.51.11:485][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-19.51.11:518][450]LogSavePackage: Save=30.96ms
+[2017.07.25-19.51.11:518][450]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSController8CB377094BA66B68D07E7383E963C307.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-19.51.11:520][450]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-19.51.55:281][963]BlueprintLog: New page: Compile FPSController
+[2017.07.25-19.51.56:188][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset" SILENT=true
+[2017.07.25-19.51.56:228][ 40]LogSavePackage: Save=31.38ms
+[2017.07.25-19.51.56:228][ 40]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSControllerF54284AC4FE6BF9E3871EBA007A6E8A0.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset'
+[2017.07.25-19.51.56:229][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSController.uasset
+[2017.07.25-19.52.06:699][417]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-19.52.06:713][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-19.52.06:713][417]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 5:52:06 AM)
+[2017.07.25-19.52.06:713][417]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-19.52.06:715][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001724s)
+[2017.07.25-19.52.06:716][417]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-19.52.06:716][417]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2017.07.25-19.52.06:716][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.002980s)
+[2017.07.25-19.52.06:741][417]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-19.52.06:748][417]LogInit: FAudioDevice initialized.
+[2017.07.25-19.52.06:780][417]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-19.52.06:782][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-12.52.06
+[2017.07.25-19.52.06:782][417]LogWorld: Bringing up level for play took: 0.001068
+[2017.07.25-19.52.06:784][417]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap -0.544
+[2017.07.25-19.52.45:823][ 83]Cmd: SELECT NONE
+[2017.07.25-20.00.27:597][555]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.07.25-20.00.28:471][620]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-20.00.28:486][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-20.00.28:486][620]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 6:00:28 AM)
+[2017.07.25-20.00.28:487][620]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-20.00.28:488][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001846s)
+[2017.07.25-20.00.28:489][620]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-20.00.28:489][620]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2017.07.25-20.00.28:490][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.003105s)
+[2017.07.25-20.00.28:518][620]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-20.00.28:525][620]LogInit: FAudioDevice initialized.
+[2017.07.25-20.00.28:552][620]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-20.00.28:554][620]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-13.00.28
+[2017.07.25-20.00.28:554][620]LogWorld: Bringing up level for play took: 0.000932
+[2017.07.25-20.00.28:556][620]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap -0.772
+[2017.07.25-21.55.35:356][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.07.25-21.55.35:391][124]LogSavePackage: Save=32.26ms
+[2017.07.25-21.55.35:391][124]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotController37AF83BF42A0119D140157B1C40ADF0D.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset'
+[2017.07.25-21.55.35:392][124]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset
+[2017.07.25-21.56.34:986][807]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-21.56.43:725][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPSGameMode" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSGameMode.uasset" SILENT=true
+[2017.07.25-21.56.43:743][847]LogSavePackage: Save=12.11ms
+[2017.07.25-21.56.43:743][847]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FPSGameMode5425E7C549A7715DE99042BE22E8A077.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSGameMode.uasset'
+[2017.07.25-21.56.43:745][847]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/FPSGameMode.uasset
+[2017.07.25-21.56.45:651][ 75]BlueprintLog: New page: Compile FPSGameMode
+[2017.07.25-22.05.25:380][115]LogSlate: Took 0.004512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.25-22.10.32:934][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.07.25-22.10.32:978][623]LogSavePackage: Save=35.06ms
+[2017.07.25-22.10.32:978][623]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotController70FF5C1F4CAE94956E59A1B664C14799.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset'
+[2017.07.25-22.10.32:980][623]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset
+[2017.07.25-22.10.33:537][687]BlueprintLog: New page: Compile SuperHotController
+[2017.07.25-22.10.35:130][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.07.25-22.10.35:167][843]LogSavePackage: Save=35.69ms
+[2017.07.25-22.10.35:167][843]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotController0574C8FD40ABB3B2B94885AD2B7FD004.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset'
+[2017.07.25-22.10.35:168][843]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset
+[2017.07.25-22.14.36:235][443]BlueprintLog: New page: Compile SuperHotController
+[2017.07.25-22.14.38:643][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.07.25-22.14.38:680][711]LogSavePackage: Save=35.41ms
+[2017.07.25-22.14.38:680][711]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotControllerDC9B40FB4B0896CCF3755EB3B3C6F5EF.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset'
+[2017.07.25-22.14.38:682][711]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset
+[2017.07.25-22.14.46:047][544]LogActorFactory: Actor Factory created Cube
+[2017.07.25-22.14.46:745][613]LogActorFactory: Actor Factory created Cube
+[2017.07.25-22.15.14:330][143]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.25-22.15.15:470][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.07.25-22.15.31:860][976]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.07.25-22.15.35:092][343]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.25-22.15.39:835][883]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.25-22.15.40:372][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.07.25-22.16.20:241][119]Cmd: DUPLICATE
+[2017.07.25-22.16.20:241][119]Cmd: ACTOR DUPLICATE
+[2017.07.25-22.16.26:734][825]Cmd: DUPLICATE
+[2017.07.25-22.16.26:734][825]Cmd: ACTOR DUPLICATE
+[2017.07.25-22.16.53:010][765]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-22.16.53:026][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-22.16.53:027][765]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 8:16:53 AM)
+[2017.07.25-22.16.53:027][765]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-22.16.53:029][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002405s)
+[2017.07.25-22.16.53:030][765]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-22.16.53:030][765]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2017.07.25-22.16.53:031][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.003833s)
+[2017.07.25-22.16.53:058][765]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-22.16.53:065][765]LogInit: FAudioDevice initialized.
+[2017.07.25-22.16.53:094][765]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-22.16.53:096][765]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-15.16.53
+[2017.07.25-22.16.53:096][765]LogWorld: Bringing up level for play took: 0.001264
+[2017.07.25-22.16.53:098][765]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap -0.23
+[2017.07.25-22.18.13:344][423]LogSavePackage: Save=30.41ms
+[2017.07.25-22.18.13:344][423]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FoundationMap_Auto6634E117142168383E238998BAA0E8D8E.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Maps/FoundationMap_Auto6.umap'
+[2017.07.25-22.18.13:345][423]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Maps/FoundationMap_Auto6.umap
+[2017.07.25-22.18.13:349][423]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FoundationMap' took 0.057
+[2017.07.25-22.18.13:349][423]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.057
+[2017.07.25-22.18.28:473][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FoundationMap" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.25-22.18.28:519][657]LogSavePackage: Save=29.57ms
+[2017.07.25-22.18.28:520][657]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/FoundationMapA3EE58AF49C84CDD832ADB89053EB5D9.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap'
+[2017.07.25-22.18.28:521][657]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Maps/FoundationMap.umap
+[2017.07.25-22.18.28:539][657]LogFileHelpers: Saving map 'FoundationMap' took 0.104
+[2017.07.25-22.22.35:750][ 21]LogMetaData: Removing '/Game/Blueprints/SuperHotProjectile.SuperHotProjectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/SuperHotBullet.PackageMetaData'
+[2017.07.25-22.22.35:750][ 21]LogMetaData: Removing '/Game/Blueprints/SuperHotProjectile.SKEL_SuperHotProjectile_C' ref from Metadata '/Game/Blueprints/SuperHotBullet.PackageMetaData'
+[2017.07.25-22.22.35:750][ 21]LogMetaData: Removing '/Game/Blueprints/SuperHotProjectile.SuperHotProjectile_C' ref from Metadata '/Game/Blueprints/SuperHotBullet.PackageMetaData'
+[2017.07.25-22.22.35:750][ 21]LogMetaData: Removing '/Game/Blueprints/SuperHotProjectile.SuperHotProjectile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/SuperHotBullet.PackageMetaData'
+[2017.07.25-22.22.35:750][ 21]LogMetaData: Removing '/Game/Blueprints/SuperHotProjectile.SuperHotProjectile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/SuperHotBullet.PackageMetaData'
+[2017.07.25-22.22.35:750][ 21]LogMetaData: Removing '/Game/Blueprints/SuperHotProjectile.SuperHotProjectile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/SuperHotBullet.PackageMetaData'
+[2017.07.25-22.22.35:770][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotProjectile" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset" SILENT=true
+[2017.07.25-22.22.35:784][ 21]LogSavePackage: Save=12.60ms
+[2017.07.25-22.22.35:784][ 21]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotProjectile60D9FC41436A12D380B2C898880929F9.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset'
+[2017.07.25-22.22.35:786][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset
+[2017.07.25-22.22.37:565][153]LogRenderer: Reallocating scene render targets to support 1724x1128 NumSamples 1 (Frame:105184).
+[2017.07.25-22.25.56:733][505]BlueprintLog: New page: Compile SuperHotProjectile
+[2017.07.25-22.25.57:693][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotBullet" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotBullet.uasset" SILENT=true
+[2017.07.25-22.25.57:699][573]LogSavePackage: Save=3.93ms
+[2017.07.25-22.25.57:699][573]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotBullet34D37AC84F66C2DB9D900FA054A3D572.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotBullet.uasset'
+[2017.07.25-22.25.57:700][573]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotBullet.uasset
+[2017.07.25-22.25.57:714][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotProjectile" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset" SILENT=true
+[2017.07.25-22.25.57:738][573]LogSavePackage: Save=17.82ms
+[2017.07.25-22.25.57:738][573]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotProjectileB40A972242AE5C29CDE10597203CCE68.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset'
+[2017.07.25-22.25.57:740][573]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset
+[2017.07.25-22.26.13:529][ 16]BlueprintLog: New page: Compile SuperHotProjectile
+[2017.07.25-22.26.14:210][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotProjectile" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset" SILENT=true
+[2017.07.25-22.26.14:230][ 67]LogSavePackage: Save=17.89ms
+[2017.07.25-22.26.14:230][ 67]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotProjectile950CD28E48D7D6EC123D93B93D57A5DC.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset'
+[2017.07.25-22.26.14:231][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset
+[2017.07.25-22.26.53:923][286]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.25-22.27.43:316][742]BlueprintLog: New page: Compile SuperHotController
+[2017.07.25-22.27.43:334][742]LogBlueprint:Error: [Compiler SuperHotController] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.07.25-22.27.43:334][742]LogBlueprint:Error: [Compiler SuperHotController] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.07.25-22.27.43:583][742]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.07.25-22.27.43:583][742]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.07.25-22.27.43:584][742]LogBlueprint:Warning: [Compiler SuperHotController] Warning [8157.43] Compile of SuperHotController failed. 2 Fatal Issue(s) 0 Warning(s) [in 268 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.07.25-22.28.52:306][277]BlueprintLog: New page: Compile SuperHotController
+[2017.07.25-22.28.53:141][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.07.25-22.28.53:189][352]LogSavePackage: Save=39.14ms
+[2017.07.25-22.28.53:189][352]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotController5DD2ACA54D19F09E7B3D9E84DEA18114.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset'
+[2017.07.25-22.28.53:191][352]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset
+[2017.07.25-22.30.47:795][776]BlueprintLog: New page: Compile SuperHotController
+[2017.07.25-22.30.48:536][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.07.25-22.30.48:583][842]LogSavePackage: Save=44.51ms
+[2017.07.25-22.30.48:583][842]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotController1EE1CA22450AB24402F3AAA3D5B85906.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset'
+[2017.07.25-22.30.48:585][842]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset
+[2017.07.25-22.31.38:317][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FoundationMap' took 0.019
+[2017.07.25-22.31.38:318][781]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/SuperHotController] ([1] browsable assets)...
+[2017.07.25-22.31.38:318][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SuperHotController]
+[2017.07.25-22.31.38:372][781]LogSavePackage: Save=52.15ms
+[2017.07.25-22.31.38:372][781]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotController_Auto77BC10E134F6BE7FC477168B4BE068FC1.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/SuperHotController_Auto7.uasset'
+[2017.07.25-22.31.38:373][781]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/Autosaves/Game/Blueprints/SuperHotController_Auto7.uasset
+[2017.07.25-22.31.38:373][781]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.07.25-22.31.58:909][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:909][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:909][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:909][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:909][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:909][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:913][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:913][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:919][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:919][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:920][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.58:920][874]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:581][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:581][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:582][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:582][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:582][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:583][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:583][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:583][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:588][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:588][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:589][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.31.59:589][953]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:808][ 98]BlueprintLog: New page: Compile SuperHotProjectile
+[2017.07.25-22.32.00:821][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:822][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:822][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:822][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:918][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:918][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:918][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:918][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:949][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:949][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:949][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.00:949][ 98]PIE:Warning: Warning Invalid Simulate Options: Body (SuperHotProjectile_C_0.Box) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-22.32.01:446][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotProjectile" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset" SILENT=true
+[2017.07.25-22.32.01:471][146]LogSavePackage: Save=18.61ms
+[2017.07.25-22.32.01:471][146]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotProjectile7C54A8084AF0E1D01EA0619CC77AD0EB.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset'
+[2017.07.25-22.32.01:473][146]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset
+[2017.07.25-22.32.38:595][160]BlueprintLog: New page: Compile SuperHotController
+[2017.07.25-22.33.02:379][644]BlueprintLog: New page: Compile SuperHotProjectile
+[2017.07.25-22.33.03:004][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotProjectile" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset" SILENT=true
+[2017.07.25-22.33.03:024][691]LogSavePackage: Save=17.53ms
+[2017.07.25-22.33.03:024][691]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotProjectile7537ECFA4A728957A082CB9E2B6A83BE.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset'
+[2017.07.25-22.33.03:026][691]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset
+[2017.07.25-22.33.04:180][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotProjectile" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset" SILENT=true
+[2017.07.25-22.33.04:197][827]LogSavePackage: Save=14.48ms
+[2017.07.25-22.33.04:197][827]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotProjectile8E37565A4E85437B13C80294C2B69573.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset'
+[2017.07.25-22.33.04:197][827]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotProjectile.uasset
+[2017.07.25-22.33.05:701][994]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.25-22.34.04:897][254]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-22.34.04:913][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-22.34.04:913][254]PIE: New page: PIE session: FoundationMap (Jul 25, 2017, 8:34:04 AM)
+[2017.07.25-22.34.04:913][254]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FoundationMap
+[2017.07.25-22.34.04:916][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002081s)
+[2017.07.25-22.34.04:916][254]LogAIModule: Creating AISystem for world FoundationMap
+[2017.07.25-22.34.04:917][254]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2017.07.25-22.34.04:917][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FoundationMap.FoundationMap to /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap (0.003280s)
+[2017.07.25-22.34.04:943][254]LogInit: XAudio2 using 'VN279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-22.34.04:950][254]LogInit: FAudioDevice initialized.
+[2017.07.25-22.34.04:980][254]LogLoad: Game class is 'FPSGameMode_C'
+[2017.07.25-22.34.04:982][254]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FoundationMap.FoundationMap up for play (max tick rate 0) at 2017.07.25-15.34.04
+[2017.07.25-22.34.04:982][254]LogWorld: Bringing up level for play took: 0.001081
+[2017.07.25-22.34.04:984][254]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FoundationMap -0.344
+[2017.07.25-22.37.56:882][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.07.25-22.37.56:938][591]LogSavePackage: Save=50.30ms
+[2017.07.25-22.37.56:938][591]LogSavePackage: Moving '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Saved/SuperHotControllerBBCEB5D44460FDE3B00089BFEAE4C17C.tmp' to '../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset'
+[2017.07.25-22.37.56:943][591]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/BlueprintsFoundation/Foundation/Content/Blueprints/SuperHotController.uasset
